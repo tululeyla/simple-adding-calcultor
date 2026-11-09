@@ -13,7 +13,7 @@ const firstNumber = Number(firstInput.value);
 const secondNumber = Number(secondInput.value);
 let add;
 add = firstNumber + secondNumber;
-addedNumber.textContent = add;
+addedNumber.textContent =`Total is : ${add}`;
 
 form.reset();
 })
