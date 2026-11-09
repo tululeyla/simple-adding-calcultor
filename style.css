@@ -1,0 +1,42 @@
+*,*::before,*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+fieldset{
+    padding: 50px;
+    border-color: rgb(25, 24, 36);
+    border-radius: 10px;
+    text-align: center;
+}
+input {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(10, 10, 10);
+}
+legend {
+    padding: 2px;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+#btn {
+    padding: 10px 20px;
+    background-color: rgb(30, 30, 238);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 60%;
+}
+.added-number {
+    padding: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
